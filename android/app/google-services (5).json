@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "716594575799",
+    "firebase_url": "https://garage-finder-fb405-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "garage-finder-fb405",
+    "storage_bucket": "garage-finder-fb405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716594575799:android:ddef0e9905232d99a99032",
+        "android_client_info": {
+          "package_name": "com.example.garage_finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXat1pkyd7vw6D3enPNgAO4aWYOg9ylc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716594575799-q9k5b881j25ftdfr4imddhrkcmt5gtv1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.garageFinder"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716594575799:android:064527b5cace04dda99032",
+        "android_client_info": {
+          "package_name": "com.example.mechanic_side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXat1pkyd7vw6D3enPNgAO4aWYOg9ylc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716594575799-q9k5b881j25ftdfr4imddhrkcmt5gtv1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.garageFinder"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716594575799:android:c7a568f4d0a9ba7ea99032",
+        "android_client_info": {
+          "package_name": "com.garage_finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716594575799-ckukss0qrlqv8vcmfd4qu76mc1bjn75g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garage_finder",
+            "certificate_hash": "43d7d50fec1a015d9f7eecd07cafb8ad54113564"
+          }
+        },
+        {
+          "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXat1pkyd7vw6D3enPNgAO4aWYOg9ylc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716594575799-6vuf6mj4grc1cgk6aogh4ii0hrtlph6h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716594575799-q9k5b881j25ftdfr4imddhrkcmt5gtv1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.garageFinder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
