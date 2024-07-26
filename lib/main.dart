@@ -11,10 +11,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'mechanic side',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.blue, // Primary color for the theme
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.blue, // AppBar color
+        ),
+        buttonTheme: ButtonThemeData(
+          buttonColor: Colors.blue, // Default button color
+        ),
+        // You can add more theme customizations here if needed
       ),
       home: const MyHomePage(title: 'Garage Finder mechanic side'),
     );
