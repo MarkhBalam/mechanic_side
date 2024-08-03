@@ -1,3 +1,4 @@
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
@@ -17,6 +18,19 @@ class _GarageInfoScreenState extends State<GarageInfoScreen> {
   String? selectedCarType;
 
   final _formKey = GlobalKey<FormState>();
+
+  _submit(){
+    if(_formKey.currentState!.validate()){
+      Map driverCarInfoMap = {
+        "car_model": carModelTextEditingController.text.trim(),
+        "car_number":carNumberTextEditingController.text.trim(),
+      };
+      DatabaseReference userRef = FirebaseDatabase.instance.ref().child("mechanic");
+      userRef.child(currentUser!.uid).child("mechanic_details").set(driverCarInfoMap);
+      //Fluttertoast.showToast(msg:"Car details has been saved");
+      Navigator.push(context,MaterialPageRoute(builder: (c)=>............))
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -189,7 +203,17 @@ class _GarageInfoScreenState extends State<GarageInfoScreen> {
                                 selectedCarType = newValue.toString();
                               });
                             })
-                            SizedBox(height: 20,)
+                            SizedBox(height: 20,),
+
+
+                            ElevatedButton(onPressed: (){
+                              _submit();
+                            }, child:Text(
+                              "Register"
+                              style:TextStyle(
+                                fontSize:20,
+                              )
+                            ))
                         ]
                       )
                     ],

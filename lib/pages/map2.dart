@@ -1,13 +1,13 @@
 import 'dart:async';
-import 'package:garage_finder/Assistants/assistant_methods.dart';
-import 'package:garage_finder/pages/precise_pickup_location.dart';
+import 'package:mechanic_side/Assistants/assistant_methods.dart';
+
 import 'package:geocoder2/geocoder2.dart';
 import 'package:location/location.dart' as loc;
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:garage_finder/global/map_key.dart';
-import 'package:garage_finder/models/directions.dart';
+import 'package:mechanic_side/global/map_key.dart';
+import 'package:mechanic_side/models/directions.dart';
 
 class map_page1 extends StatefulWidget {
   const map_page1({super.key});

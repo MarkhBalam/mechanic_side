@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:garage_finder/Assistants/request_assistant.dart';
-import 'package:garage_finder/models/directions.dart';
+import 'package:mechanic_side/Assistants/request_assistant.dart';
+import 'package:mechanic_side/models/directions.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:garage_finder/global/map_key.dart';
+import 'package:mechanic_side/global/map_key.dart';
 //import 'package:garage_finder/models/directions.dart';
 
 class AssistantMethods {
